@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="116" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Component id="add_drugs" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="130" max="-2" attributes="0"/>
+                      <Component id="craet_pharmasist" min="-2" pref="172" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="edit_drugs" min="-2" max="-2" attributes="0"/>
+                          <Component id="drugstable" min="-2" pref="146" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jButton3" max="32767" attributes="0"/>
+                          <Component id="add_contract" min="-2" pref="146" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="log_out" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel5" min="-2" pref="132" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="254" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="159" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="craet_pharmasist" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="add_drugs" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="drugstable" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="add_contract" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="edit_drugs" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="jButton3" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="log_out" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="craet_pharmasist">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CREAT PHARMASIST"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="craet_pharmasistActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="add_drugs">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ADD DRUGS"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="add_drugsActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="drugstable">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DRUGS TABLE"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="drugstableActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CONTRACTS TABLE"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="add_contract">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ADD CONTRACTS"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="add_contractActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="edit_drugs">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="EDIT / DELETE DRUGS"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="edit_drugsActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="log_out">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="LOG OUT"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="log_outActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Times New Roman" size="18" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="ADMIN MANU"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
